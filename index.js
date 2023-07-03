@@ -7,12 +7,12 @@ function changeState(){
 
     
     if (navMenu.classList.contains('nav-menu-open')) {
-        menuOpen.setAttribute("aria-expanded", "true");
+        menuOpen.setAttribute("aria-expanded", "true"); // dice que esta epxandido
         navContainer.removeAttribute("hidden");
     } 
 
     if(!menuOpen.classList.contains('menu-open')){
-        menuOpen.setAttribute("aria-expanded", "false");
+        menuOpen.setAttribute("aria-expanded", "false"); //dice que esta expandido
         navContainer.setAttribute("hidden", "true");
     }
 };
